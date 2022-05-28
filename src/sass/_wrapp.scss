@@ -1,0 +1,41 @@
+
+.wrapp {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    z-index: 10;
+    margin-bottom: 10px;
+}
+
+.search-form {
+    position: relative;
+align-items: center;
+
+}
+
+input[name='searchQuery'] {
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: transparent;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+    
+}
+
+button[type='submit'] {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    
+}
+
+button[type='submit']:hover .search-svg {
+    fill: #6c6ed1;
+}
